@@ -1,3 +1,6 @@
+input.onButtonPressed(Button.A, function () {
+    basic.clearScreen()
+})
 basic.showString("HOLA!")
 basic.forever(function () {
     if (input.pinIsPressed(TouchPin.P0)) {

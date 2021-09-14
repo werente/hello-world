@@ -1,8 +1,4 @@
-input.onButtonPressed(Button.A, function () {
-    basic.clearScreen()
-})
-basic.showString("HOLA!")
-basic.forever(function () {
+ function emotion(): void {
     if (input.pinIsPressed(TouchPin.P0)) {
         basic.showString("TRANQUILIDAD")
         basic.showIcon(IconNames.QuarterNote)
@@ -16,4 +12,4 @@ basic.forever(function () {
         basic.showIcon(IconNames.Happy)
     }
     basic.clearScreen()
-})
+}
